@@ -13,8 +13,11 @@
 ## 🛠️ Tech Stack
 
 **AI/ML:** PyTorch, TransformerLens, Hugging Face, LangChain
+
 **Cloud:** Azure OpenAI, Azure ML, Azure Cognitive Services
+
 **LLM:** GPT-4, Claude, Llama, Fine-tuning, RAG, Agents
+
 **MLOps:** MLflow, DVC, Docker, FastAPI, GitHub Actions
 
 ## 📊 Current Focus
