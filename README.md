@@ -5,7 +5,7 @@
 🎓 MSc AI @ Hochschule Trier | 📍 Germany
 
 ## 🏅 Certifications
-## 🏅 Certifications
+
 ### Professional Exams
 ![Azure](https://img.shields.io/badge/Azure_AI_Engineer-AI--102-0078D4?logo=microsoft-azure)
 ![Azure](https://img.shields.io/badge/Azure_Data_Scientist-DP--100-0078D4?logo=microsoft-azure)
