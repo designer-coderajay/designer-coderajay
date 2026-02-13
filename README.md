@@ -8,8 +8,6 @@
 
 <br/>
 
-## Hi, I'm Ajay Mahale 👋
-**AI Engineer | Mechanistic Interpretability Researcher**
 🎓 MSc AI @ Hochschule Trier | 📍 Germany
 
 ## 🔬 Research Focus
@@ -32,9 +30,7 @@ Mechanistic interpretability: activation patching, logit lens, induction heads, 
 **Cloud:** Azure OpenAI, Azure ML, Azure Cognitive Services
 **LLM:** GPT-4, Claude, Llama, Fine-tuning, RAG, Agents
 **MLOps:** MLflow, DVC, Docker, FastAPI, GitHub Actions
-**Interpretability:** TransformerLens, PyTorch, activation patching, logit lens
-**Production:** Azure ML, Azure OpenAI, FastAPI, Docker, MLflow
-**LLMs:** GPT-4, Claude, Llama, RAG, fine-tuning
+
 
 ## 📊 Current Focus
 - 🔬 MSc Thesis: Mechanistic Interpretability of LLMs
