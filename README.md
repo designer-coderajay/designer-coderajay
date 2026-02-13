@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=100&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=200&section=header" width="100%"/>
 </div>
 
-last optimised my readme :# Hi, I'm Ajay Mahale 👋
+Hi, I'm Ajay Mahale 👋
 **AI Engineer | Mechanistic Interpretability Researcher**
 🎓 MSc AI @ Hochschule Trier | 📍 Germany
 
@@ -40,5 +40,5 @@ Mechanistic interpretability: activation patching, logit lens, induction heads, 
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-red?logo=gmail)](mailto:mahale.ajay01@gmail.com)
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=80&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=1500&section=footer" width="100%"/>
 </div>
