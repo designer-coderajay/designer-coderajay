@@ -41,6 +41,9 @@ Mechanistic interpretability: activation patching, logit lens, induction heads, 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajay--mh-blue?logo=linkedin)](https://linkedin.com/in/ajay-mh)
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-red?logo=gmail)](mailto:mahale.ajay01@gmail.com)
 
+![snake](https://raw.githubusercontent.com/designer-coderajay/designer-coderajay/output/github-snake.svg)
+![snake dark](https://raw.githubusercontent.com/designer-coderajay/designer-coderajay/output/github-snake-dark.svg)
+
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=70&section=footer" width="100%"/>
 </div>
