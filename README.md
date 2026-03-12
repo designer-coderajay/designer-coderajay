@@ -40,7 +40,7 @@ Mechanistic interpretability: activation patching, logit lens, induction heads, 
 ## 📫 Connect
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajay--mh-blue?logo=linkedin)](https://linkedin.com/in/ajay-mh)
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-red?logo=gmail)](mailto:mahale.ajay01@gmail.com)
-[![X](https://img.shields.io/badge/x.com/AjayPMahale-White?logo=X)](https://x.com/AjayPMahale)
+[![X](https://img.shields.io/badge/X-AjayPMahale-black?logo=x&logoColor=white)](https://x.com/AjayPMahale)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?logo=arxiv)](https://arxiv.org/abs/2603.09988)
 
 
