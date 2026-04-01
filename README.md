@@ -26,10 +26,10 @@ Mechanistic interpretability: activation patching, logit lens, induction heads, 
 ![Hugging Face](https://img.shields.io/badge/Hugging_Face-Open_LLM_Course-FFD21E?logo=huggingface&logoColor=black)
 
 ## 🛠️ Tech Stack
-Programming Languages: Python, SQL
-Tools & Frameworks: PyTorch, TransformerLens, HuggingFace, scikit-learn, Azure Machine Learning, MLflow, REST APIs, Git, GitHub Actions, CI/CD Pipelines, Docker, Jupyter Notebooks, Google Colab, NumPy, Pandas.
-Expertise: Mechanistic Interpretability, Large Language Models (LLM), Evaluation Methodology & Metrics Design, Activation Patching, Transformer Architecture, Advanced Model Evaluation & Observability, Data Preprocessing & Feature Engineering, Python Package Development (PyPI), Cloud Architecture, Prompt Engineering, Causal Analysis.
-Languages: English (C1), German (B1), Hindi (Native)
+- Programming Languages: Python, SQL
+- Tools & Frameworks: PyTorch, TransformerLens, HuggingFace, scikit-learn, Azure Machine Learning, MLflow, REST APIs, Git, GitHub Actions, CI/CD Pipelines, Docker, Jupyter Notebooks, Google Colab, NumPy, Pandas.
+- Expertise: Mechanistic Interpretability, Large Language Models (LLM), Evaluation Methodology & Metrics Design, Activation Patching, Transformer Architecture, Advanced Model Evaluation & Observability, Data Preprocessing & Feature Engineering, Python Package Development (PyPI), Cloud Architecture, Prompt Engineering, Causal Analysis.
+- Languages: English (C1), German (B1), Hindi (Native)
 
 
 
