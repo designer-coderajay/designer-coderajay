@@ -11,7 +11,6 @@
 [![PyPI](https://img.shields.io/badge/PyPI-glassbox--mech--interp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/glassbox-mech-interp/)
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mahale.ajay01@gmail.com)
 [![X](https://img.shields.io/badge/X-AjayPMahale-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AjayPMahale)
-[![Profile Views](https://komarev.com/ghpvc/?username=designer-coderajay&color=blueviolet&style=flat-square&label=Profile+views)](https://github.com/designer-coderajay)
 
 <br/>
 
