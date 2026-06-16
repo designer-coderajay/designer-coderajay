@@ -11,6 +11,7 @@
 [![PyPI](https://img.shields.io/badge/PyPI-glassbox--mech--interp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/glassbox-mech-interp/)
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mahale.ajay01@gmail.com)
 [![X](https://img.shields.io/badge/X-AjayPMahale-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AjayPMahale)
+[![Profile Views](https://komarev.com/ghpvc/?username=designer-coderajay&color=blueviolet&style=flat-square&label=Profile+views)](https://github.com/designer-coderajay)
 
 <br/>
 
@@ -22,7 +23,7 @@
 
 ## Who I Am
 
-I build evaluation infrastructure for language models — not dashboards that look good in demos, but pipelines that surface what metrics actually measure versus what they claim to measure.
+I build evaluation infrastructure for language models, not dashboards that look good in demos, but pipelines that surface what metrics actually measure versus what they claim to measure.
 
 My core thesis: **confidence scores are lying to you**. I proved it with a near-zero correlation (r = 0.009) between model confidence and internal reasoning faithfulness. That finding came from combining activation patching, causal circuit analysis, and a reproducible benchmarking framework I built from scratch.
 
@@ -34,10 +35,10 @@ Currently writing my MSc thesis on explainable AI for LLMs with causally grounde
 
 | What | Result |
 |------|--------|
-| 🔬 Causal circuit discovery speed | **1.2s on CPU** vs 43.2s baseline — **37× faster** than ACDC (Conmy et al. 2023) |
-| 📊 Confidence vs. faithfulness correlation | **r = 0.009** — near-zero. Confidence-based eval signals are unreliable. |
+| 🔬 Causal circuit discovery speed | **1.2s on CPU** vs 43.2s baseline, **37× faster** than ACDC (Conmy et al. 2023) |
+| 📊 Confidence vs. faithfulness correlation | **r = 0.009**, near-zero. Confidence-based eval signals are unreliable. |
 | ✅ LLM explanation quality | **99% quality** via ERASER metrics vs. 60% template baseline |
-| 🧪 CI reliability | **12/12 passing** tests — reproducible, auditable evaluation framework |
+| 🧪 CI reliability | **12/12 passing** tests. Reproducible, auditable evaluation framework |
 | 📦 Open-source reach | Published on **arXiv**, deployed on **Hugging Face**, packaged on **PyPI** with 76 automated tests |
 | 📝 Research output | Submitted to **ICML 2026 Workshop** on Mechanistic Interpretability |
 
@@ -50,9 +51,9 @@ Currently writing my MSc thesis on explainable AI for LLMs with causally grounde
 
 The project that came out of a direct question: *can we tell, causally, which parts of GPT-2 drove a specific prediction?*
 
-- Built a causal circuit discovery engine that answers that question in **1.2s on CPU using 3 forward passes** — 37× faster than the ACDC baseline
+- Built a causal circuit discovery engine that answers that question in **1.2s on CPU using 3 forward passes**, 37× faster than the ACDC baseline
 - Quantified **r = 0.009** correlation between model confidence and internal reasoning faithfulness, a result with direct implications for EU AI Act compliance
-- Automated generation of all **9 required EU AI Act Annex IV sections** from a single function call — structured JSON output ready for GRC system import
+- Automated generation of all **9 required EU AI Act Annex IV sections** from a single function call. Structured JSON output ready for GRC system import
 - Published on **[arXiv (2603.09988)](https://arxiv.org/abs/2603.09988)**, deployed a live **Hugging Face demo**, and shipped to **PyPI** with a CLI + 76 automated tests
 
 > Compliance teams can audit any model in under a minute with zero infrastructure setup.
@@ -76,7 +77,7 @@ Document Q&A system with source citations built on Azure's full AI stack.
 Automated 4-step ML pipeline: data prep → training → evaluation → model registration.
 
 - **74% test accuracy, 80% F1, 87% AUC-ROC** on heart disease prediction (200-record held-out test set)
-- Auto-scaling compute with **minimum zero nodes** — clusters shut down automatically when idle
+- Auto-scaling compute with **minimum zero nodes**. Clusters shut down automatically when idle
 - **MLflow tracking + Azure ML Model Registry** for full experiment reproducibility and version rollback
 
 ---
@@ -116,15 +117,15 @@ The core finding: traditional attention-based metrics miss **39% of prediction b
 
 ## Currently
 
-- 📝 **MSc Thesis** — Mechanistic interpretability of LLMs with causally grounded explanations
-- 🏢 **ML Engineer @ One75 Labs** — Production LLM evaluation infrastructure, Berlin
-- 🎯 **Open to** — ML Engineer / AI Researcher roles in the EU (post-graduation, May 2026)
+- 📝 **MSc Thesis**. Mechanistic interpretability of LLMs with causally grounded explanations
+- 🏢 **ML Engineer @ One75 Labs**. Production LLM evaluation infrastructure, Berlin
+- 🎯 **Open to**. ML Engineer / AI Researcher roles in the EU (post-graduation, May 2026)
 
 ---
 
 <div align="center">
 
-*I don't just run models — I open them up and see what's actually going on inside.*
+*I don't just run models. I open them up and see what's actually going on inside.*
 
 <br/>
 
