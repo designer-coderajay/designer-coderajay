@@ -6,6 +6,7 @@
 
 <br/>
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-ajaymahale.online-059669?style=flat-square)](https://ajaymahale.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajay--mh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajay-mh)
 [![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09988)
 [![PyPI](https://img.shields.io/badge/PyPI-glassbox--mech--interp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/glassbox-mech-interp/)
