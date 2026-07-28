@@ -15,7 +15,7 @@
 
 <br/>
 
-📍 Trier, Germany &nbsp;|&nbsp; 🎓 MSc AI @ Hochschule Trier (May 2026) &nbsp;|&nbsp; 🏢 ML Engineer @ One75 Labs, Berlin
+📍 Trier, Germany &nbsp;|&nbsp; 🎓 MSc AI @ Hochschule Trier (May 2026) &nbsp;|&nbsp; 🏢 ML Engineer @ Basemotion AI, Berlin
 
 </div>
 
@@ -27,7 +27,7 @@ I build evaluation infrastructure for language models, not dashboards that look 
 
 My core thesis: **confidence scores are lying to you**. I proved it with a near-zero correlation (r = 0.009) between model confidence and internal reasoning faithfulness. That finding came from combining activation patching, causal circuit analysis, and a reproducible benchmarking framework I built from scratch.
 
-Currently writing my MSc thesis on explainable AI for LLMs with causally grounded natural language explanations, while working as an ML Engineer at One75 Labs in Berlin on production LLM evaluation systems.
+Currently writing my MSc thesis on explainable AI for LLMs with causally grounded natural language explanations, while working as an ML Engineer at Basemotion AI in Berlin on production LLM evaluation systems.
 
 ---
 
