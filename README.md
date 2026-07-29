@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=ML%20Engineer%20·%20Mechanistic%20Interpretability%20·%20LLM%20Evaluation&descAlignY=56&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=AI/ML%20Reseacher%20and %20Engineer%20·%20Mechanistic%20Interpretability%20·%20LLM%20Evaluation&descAlignY=56&descSize=16"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=600&lines=Building+tools+that+reveal+what+actually+happens+inside+LLMs.;37%C3%97+faster+circuit+discovery.+r%3D0.009+confidence-faithfulness+finding.;arXiv+published+%C2%B7+2026+submission+%C2%B7+PyPI+package.)](https://git.io/typing-svg)
 
