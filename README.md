@@ -84,12 +84,16 @@ Automated 4-step ML pipeline: data prep → training → evaluation → model re
 
 ## Research
 
-**Explainable AI for LLMs: A Causally Grounded Pipeline**
-*Submitted to ICML 2026 Workshop on Mechanistic Interpretability*
+**Explainable AI for LLMs: Causally Grounded Mechanistic Interpretability for LLMs with Faithful Natural-Language Explanations**
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.09988)
 
 The core finding: traditional attention-based metrics miss **39% of prediction behavior**. Ground truth established via 100% sufficiency scoring using activation patching and causal circuit analysis. The pipeline converts technical circuit data into structured natural language explanations validated against ERASER metrics.
+
+
+**Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation**
+[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2608.13754)
+The EU AI Act requires providers of high-risk systems to file technical documentation describing how the system reaches its decisions. Mechanistic interpretability is the obvious source of such evidence, and circuit discovery is its most developed instrument. We ask whether that evidence survives the condition under which it would be relied upon: two competent analysts, the same system, the same tool, different defensible settings. We pre-registered a crossed grid of seven analytic axes, every level taken from a published implementation, and mapped each discovered circuit through a deterministic claim map to a structured Annex IV statement. Across 15,840 pre-registered specifications on GPT-2 small and the indirect object identification task, of which 7,561 produced a claim, the derived statement flips across 73.2% of specification pairs (95% CI 0.725 to 0.738) and the modal claim commands 41.1% of the space. The evidence fails a filability criterion at every tolerance a conformity assessment body would plausibly accept. Standardising the single most influential choice, the evaluation metric, leaves the flip rate at 59.4%. Removing circuit size from the claim entirely and holding it fixed leaves 27.1% (95% CI 0.255 to 0.286), still above the pre-registered threshold. The circuits underlying these claims are structurally near-disjoint, median pairwise Jaccard overlap 4%, and functionally uncorrelated at Cohen's kappa 0.015, so the instability is not one mechanism described in different words. We give the filability criterion as a standalone protocol, and we report that one of the seven documented discovery objectives does not execute at all on the library's own canonical task. The study covers one model and one task, and whether the conclusion holds at scale is untested.
 
 ---
 
