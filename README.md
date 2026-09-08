@@ -14,7 +14,7 @@
 
 <br/>
 
-📍 Trier, Germany &nbsp;|&nbsp; 🎓 M.Sc. AI @ Hochschule Trier (June 2026)[cite: 3] &nbsp;|&nbsp; 🏢 Open to EU Relocation (No Sponsorship Required)[cite: 1]
+📍 Trier, Germany &nbsp;|&nbsp; 🎓 M.Sc. AI @ Hochschule Trier (June 2026) &nbsp;|&nbsp; 🏢 Open to EU Relocation (No Sponsorship Required)
 
 </div>
 
@@ -22,53 +22,53 @@
 
 ## Engineering Focus
 
-I build evaluation infrastructure and production-grade architectures for language models and multi-agent systems. My core thesis is empirical: standard metrics and model confidence scores frequently obscure actual internal behavior[cite: 1]. 
+I build evaluation infrastructure and production-grade architectures for language models and multi-agent systems. My core thesis is empirical: standard metrics and model confidence scores frequently obscure actual internal behavior. 
 
-By bridging mechanistic interpretability with scalable MLOps and Azure cloud infrastructure, I engineer reproducible evaluation pipelines, high-performance RAG architectures, and agentic workflows (LangGraph, Model Context Protocol) designed for production reliability and regulatory compliance[cite: 1, 3].
+By bridging mechanistic interpretability with scalable MLOps and Azure cloud infrastructure, I engineer reproducible evaluation pipelines, high-performance RAG architectures, and agentic workflows (LangGraph, Model Context Protocol) designed for production reliability and regulatory compliance.
 
 ---
 
 ## Core Technical Stack
 
-*   **Languages:** Python, SQL[cite: 3]
-*   **ML & LLM Ecosystem:** PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, LightGBM, SHAP, Optuna[cite: 3]
-*   **Agentic Frameworks & RAG:** LangGraph, Model Context Protocol (MCP), Qdrant, LlamaIndex, FAISS, Hybrid Search (Vector + BM25)[cite: 1, 3]
-*   **Cloud & MLOps:** Azure Machine Learning (SDK v2), Azure OpenAI Service, Azure AI Search, MLflow, FastAPI, Docker, Docker Compose, GitHub Actions, CI/CD[cite: 1, 3]
+*   **Languages:** Python, SQL
+*   **ML & LLM Ecosystem:** PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, LightGBM, SHAP, Optuna
+*   **Agentic Frameworks & RAG:** LangGraph, Model Context Protocol (MCP), Qdrant, LlamaIndex, FAISS, Hybrid Search (Vector + BM25)
+*   **Cloud & MLOps:** Azure Machine Learning (SDK v2), Azure OpenAI Service, Azure AI Search, MLflow, FastAPI, Docker, Docker Compose, GitHub Actions, CI/CD
 
 ---
 
 ## Featured Engineering Projects
 
 ### 🔎 [Glassbox AI — Mechanistic Interpretability Tool](https://github.com/designer-coderajay/Glassbox-AI-2.0-Mechanistic-Interpretability-tool)
-`Python` `PyTorch` `TransformerLens` `PyPI` `Docker` `FastAPI`[cite: 1]
-*   Created and maintain `glassbox-mech-interp` (v4.5.0 on PyPI), an open-source toolkit implementing 21 mathematical frameworks for causal circuit discovery via activation patching[cite: 1, 3].
-*   Benchmarked **15 to 37 times faster than ACDC** on GPT-2 Small (1.2s on CPU)[cite: 1, 3].
-*   Extended architecture adapters to support Grouped-Query Attention (GQA) and RMSNorm models (Llama-3, Mistral, Phi-3, Gemma)[cite: 3].
-*   Automated compliance reporting, emitting structured JSON for EU AI Act Annex IV documentation[cite: 1].
+`Python` `PyTorch` `TransformerLens` `PyPI` `Docker` `FastAPI`
+*   Created and maintain `glassbox-mech-interp` (v4.5.0 on PyPI), an open-source toolkit implementing 21 mathematical frameworks for causal circuit discovery via activation patching.
+*   Benchmarked **15 to 37 times faster than ACDC** on GPT-2 Small (1.2s on CPU).
+*   Extended architecture adapters to support Grouped-Query Attention (GQA) and RMSNorm models (Llama-3, Mistral, Phi-3, Gemma).
+*   Automated compliance reporting, emitting structured JSON for EU AI Act Annex IV documentation.
 
 ### 🧠 [Enterprise Agentic AI Platform](https://github.com/designer-coderajay/enterprise-agentic-ai-platform)
-`LangGraph (0.3)` `Model Context Protocol (MCP)` `Qdrant` `LlamaIndex` `FastAPI` `Celery`[cite: 3]
-*   Orchestrated a multi-agent system utilizing LangGraph to coordinate 3 Model Context Protocol (MCP) servers (Postgres, document, notification)[cite: 3].
-*   Engineered hybrid RAG pipelines over Qdrant using LlamaIndex with a FastAPI backend streaming over WebSockets to a Next.js UI[cite: 3].
-*   Integrated enterprise observability using Langfuse, OpenTelemetry, Prometheus, Grafana, and Sentry under a robust `pytest-asyncio` CI/CD pipeline[cite: 3].
+`LangGraph (0.3)` `Model Context Protocol (MCP)` `Qdrant` `LlamaIndex` `FastAPI` `Celery`
+*   Orchestrated a multi-agent system utilizing LangGraph to coordinate 3 Model Context Protocol (MCP) servers (Postgres, document, notification).
+*   Engineered hybrid RAG pipelines over Qdrant using LlamaIndex with a FastAPI backend streaming over WebSockets to a Next.js UI.
+*   Integrated enterprise observability using Langfuse, OpenTelemetry, Prometheus, Grafana, and Sentry under a robust `pytest-asyncio` CI/CD pipeline.
 
 ### ☁️ [Azure Cloud AI RAG System](https://github.com/designer-coderajay/azure-ai-rag-system)
-`Azure OpenAI` `Azure AI Search` `FastAPI` `Streamlit` `GPT-4o-mini`[cite: 1]
-*   Developed a document Q&A platform combining vector embeddings and keyword matching (BM25) for high-accuracy hybrid retrieval[cite: 1].
-*   Implemented custom chunking and ingestion pipelines over Azure Blob Storage using `text-embedding-3-small`[cite: 1].
+`Azure OpenAI` `Azure AI Search` `FastAPI` `Streamlit` `GPT-4o-mini`
+*   Developed a document Q&A platform combining vector embeddings and keyword matching (BM25) for high-accuracy hybrid retrieval.
+*   Implemented custom chunking and ingestion pipelines over Azure Blob Storage using `text-embedding-3-small`.
 
 ### 🤖 [End-to-End Azure ML Pipeline](https://github.com/designer-coderajay/azure-ml-pipeline)
-`Azure ML SDK v2` `MLflow` `scikit-learn` `Docker`[cite: 1]
-*   Designed an automated 4-stage pipeline (data preparation, training, evaluation, model registration) running on auto-scaling compute clusters that scale to zero idle nodes[cite: 1].
-*   Integrated MLflow tracking and the Azure ML Model Registry for complete experiment reproducibility and version control[cite: 1].
+`Azure ML SDK v2` `MLflow` `scikit-learn` `Docker`
+*   Designed an automated 4-stage pipeline (data preparation, training, evaluation, model registration) running on auto-scaling compute clusters that scale to zero idle nodes.
+*   Integrated MLflow tracking and the Azure ML Model Registry for complete experiment reproducibility and version control.
 
 ---
 
 ## Selected Research & Publications
 
-*   **Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026) – Preprint evaluating total and direct effect estimators for agent trajectories and establishing a 12-point traceability specification for high-risk AI[cite: 2, 3].
-*   **Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026) – arXiv:2608.13754[cite: 1, 3]. Proved that compliance-related circuit claims flip across 73.2% of specification pairs in a pre-registered multiverse analysis[cite: 1].
-*   **Explainable AI for LLMs: A Causally Grounded Pipeline** (Feb 2026) – arXiv:2603.09988[cite: 1, 3]. Established a near-zero correlation ($r = 0.009$) between model confidence and explanation faithfulness, proving confidence cannot serve as an evaluation proxy[cite: 1].
+*   **Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026) – Preprint evaluating total and direct effect estimators for agent trajectories and establishing a 12-point traceability specification for high-risk AI.
+*   **Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026) – arXiv:2608.13754. Proved that compliance-related circuit claims flip across 73.2% of specification pairs in a pre-registered multiverse analysis.
+*   **Explainable AI for LLMs: A Causally Grounded Pipeline** (Feb 2026) – arXiv:2603.09988. Established a near-zero correlation ($r = 0.009$) between model confidence and explanation faithfulness, proving confidence cannot serve as an evaluation proxy.
 
 ---
 
@@ -83,8 +83,8 @@ By bridging mechanistic interpretability with scalable MLOps and Azure cloud inf
 
 ## Availability
 
-*   🎓 **Education:** M.Sc. in Interdisciplinary Engineering (AI/ML) from Hochschule Trier (Thesis graded 1.0, Overall 1.8)[cite: 3].
-*   🎯 **Status:** Available full-time immediately for **Machine Learning Engineer**, **AI Engineer**, or **LLM Evaluation Engineer** positions across the EU (German residence permit, no sponsorship required)[cite: 1, 3].
+*   🎓 **Education:** M.Sc. in Interdisciplinary Engineering (AI/ML) from Hochschule Trier (Thesis graded 1.0, Overall 1.8).
+*   🎯 **Status:** Available full-time immediately for **Machine Learning Engineer**, **AI Engineer**, or **LLM Evaluation Engineer** positions across the EU (German residence permit, no sponsorship required).
 
 ---
 
