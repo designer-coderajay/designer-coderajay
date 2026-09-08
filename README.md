@@ -1,139 +1,98 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=ML%20Engineer%20·%20Mechanistic%20Interpretability%20·%20LLM%20Evaluation&descAlignY=56&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=AI%20Researcher%20·%20Mechanistic%20Interpretability%20·%20Responsible%20AI&descAlignY=56&descSize=16"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=600&lines=Building+tools+that+reveal+what+actually+happens+inside+LLMs.;37%C3%97+faster+circuit+discovery.+r%3D0.009+confidence-faithfulness+finding.;arXiv+published+%C2%B7+2026+submission+%C2%B7+PyPI+package.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=600&lines=Causally+grounded+mechanistic+interpretability.;Post-hoc+causal+attribution+over+agent+trajectories.;Advancing+AI+traceability+and+compliance.;arXiv+published+%C2%B7+2026+submissions+%C2%B7+PyPI+maintainer.)](https://git.io/typing-svg)
 
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-ajaymahale.online-059669?style=flat-square)](https://ajaymahale.online)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajay--mh-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajay-mh)
-[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.09988)
 [![PyPI](https://img.shields.io/badge/PyPI-glassbox--mech--interp-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/glassbox-mech-interp/)
 [![Email](https://img.shields.io/badge/Email-mahale.ajay01-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mahale.ajay01@gmail.com)
 [![X](https://img.shields.io/badge/X-AjayPMahale-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/AjayPMahale)
 
 <br/>
 
-📍 Trier, Germany &nbsp;|&nbsp; 🎓 MSc AI @ Hochschule Trier (May 2026) &nbsp;|&nbsp; 🏢 ML Engineer @ Basemotion AI, Berlin
+📍 Trier, Germany &nbsp;|&nbsp; 🎓 MSc AI @ Hochschule Trier (June 2026)[cite: 3] &nbsp;|&nbsp; 🏢 Machine Learning Researcher[cite: 3]
 
 </div>
 
 ---
 
-## Who I Am
+## Research Focus
 
-I build evaluation infrastructure for language models, not dashboards that look good in demos, but pipelines that surface what metrics actually measure versus what they claim to measure.
+I am a Machine Learning Researcher focused on mechanistic interpretability and responsible AI[cite: 3]. My primary research investigates a foundational question: when a language model explains itself, is that explanation causally true[cite: 1]? Through causal intervention methods like activation patching, my work aims to expose the gap between what evaluation metrics measure and what they claim to measure[cite: 1, 3].
 
-My core thesis: **confidence scores are lying to you**. I proved it with a near-zero correlation (r = 0.009) between model confidence and internal reasoning faithfulness. That finding came from combining activation patching, causal circuit analysis, and a reproducible benchmarking framework I built from scratch.
-
-Currently writing my MSc thesis on explainable AI for LLMs with causally grounded natural language explanations, while working as an ML Engineer at Basemotion AI in Berlin on production LLM evaluation systems.
+Recently, my research has expanded into the rigorous evaluation of multi-agent systems[cite: 3]. I develop formal estimators for causal attribution in agentic decisions, directly addressing the traceability and record-keeping requirements specified by the EU AI Act[cite: 2, 3].
 
 ---
 
-## Highlights That Matter
+## Selected Publications & Preprints
 
-| What | Result |
-|------|--------|
-| 🔬 Causal circuit discovery speed | **1.2s on CPU** vs 43.2s baseline, **37× faster** than ACDC (Conmy et al. 2023) |
-| 📊 Confidence vs. faithfulness correlation | **r = 0.009**, near-zero. Confidence-based eval signals are unreliable. |
-| ✅ LLM explanation quality | **99% quality** via ERASER metrics vs. 60% template baseline |
-| 🧪 CI reliability | **12/12 passing** tests. Reproducible, auditable evaluation framework |
-| 📦 Open-source reach | Published on **arXiv**, deployed on **Hugging Face**, packaged on **PyPI** with 76 automated tests |
-| 📝 Research output | Submitted to **ICML 2026 Workshop** on Mechanistic Interpretability |
+**Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026)[cite: 3]
+*Preprint under review*[cite: 3]. 
+*   **Contribution:** Established that marginal total effect estimators fail to separate causally inert steps from decisive ones in agent trajectories[cite: 2].
+*   **Methodology:** Separated the marginal total effect from a common-random-numbers total effect that isolates a step’s own contribution[cite: 2].
+*   **Impact:** Derived a 12-requirement traceability specification for high-risk agentic AI systems to bridge the gap in Article 86 explanations under the EU AI Act[cite: 2].
+
+**Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026)[cite: 3]
+[![arXiv](https://img.shields.io/badge/arXiv-2608.13754-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2608.13754)
+*   **Contribution:** Demonstrated that circuit-level interpretability evidence fails to survive defensible analytic variation[cite: 3].
+*   **Methodology:** Conducted a pre-registered multiverse analysis over 15,840 specifications on GPT-2 small[cite: 1, 3].
+*   **Findings:** The derived EU AI Act Annex IV statement flipped across 73.2% of specification pairs[cite: 1].
+
+**Explainable AI for LLMs: Causally Grounded Mechanistic Interpretability for LLMs with Faithful Natural-Language Explanations** (Feb 2026)[cite: 3]
+[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.09988)
+*   **Contribution:** Proved that model confidence is not a usable proxy for explanation faithfulness[cite: 1]. 
+*   **Findings:** Measured a near-zero correlation (r = 0.009) between model confidence and internal reasoning faithfulness across 50 prompts[cite: 1, 3]. Scored an identified circuit 100% sufficient but only 22% comprehensive[cite: 1, 3].
 
 ---
 
-## Featured Projects
+## Open-Source Research Infrastructure
 
-### 🔎 [Glassbox AI — Mechanistic Interpretability Tool](https://github.com/designer-coderajay/Glassbox-AI-2.0-Mechanistic-Interpretability-tool)
+### 🔎 [Glassbox AI — Mechanistic Interpretability Toolkit](https://github.com/designer-coderajay/Glassbox-AI-2.0-Mechanistic-Interpretability-tool)
 `Python` `PyTorch` `TransformerLens` `arXiv` `PyPI` `Hugging Face`
 
-The project that came out of a direct question: *can we tell, causally, which parts of GPT-2 drove a specific prediction?*
+Published an open-source mechanistic interpretability toolkit to PyPI (v4.5.0), implementing 21 mathematical frameworks[cite: 1, 3].
+*   Accelerated causal circuit discovery 15 to 37 times against ACDC baselines on GPT-2 Small[cite: 3].
+*   Extended exact edge-level discovery to grouped-query-attention and RMSNorm architectures (Llama-3, Mistral, Phi-3, Gemma)[cite: 3].
+*   Automated generation of structured JSON for EU AI Act Annex IV documentation[cite: 1, 3].
 
-- Built a causal circuit discovery engine that answers that question in **1.2s on CPU using 3 forward passes**, 37× faster than the ACDC baseline
-- Quantified **r = 0.009** correlation between model confidence and internal reasoning faithfulness, a result with direct implications for EU AI Act compliance
-- Automated generation of all **9 required EU AI Act Annex IV sections** from a single function call. Structured JSON output ready for GRC system import
-- Published on **[arXiv (2603.09988)](https://arxiv.org/abs/2603.09988)**, deployed a live **Hugging Face demo**, and shipped to **PyPI** with a CLI + 76 automated tests
+### 🧠 [Enterprise Agentic AI Platform](https://github.com/designer-coderajay/enterprise-agentic-ai-platform)
+`LangGraph` `Model Context Protocol (MCP)` `Qdrant` `LlamaIndex`
 
-> Compliance teams can audit any model in under a minute with zero infrastructure setup.
+Multi-agent orchestration system developed to evaluate complex automated reasoning architectures[cite: 3].
+*   Orchestrates 3 MCP servers (Postgres, document, notification) via LangGraph (0.3)[cite: 3].
+*   Integrates hybrid RAG over Qdrant using LlamaIndex[cite: 3].
 
----
+### 📚 [Thesis-RAG Literature Retrieval](https://github.com/designer-coderajay/thesis-rag)
+`Llama 3.2` `FAISS` `RAG`
 
-### ☁️ [Azure Cloud AI RAG System](https://github.com/designer-coderajay/azure-ai-rag-system)
-`Azure OpenAI` `Azure AI Search` `FastAPI` `Streamlit` `GPT-4o-mini`
-
-Document Q&A system with source citations built on Azure's full AI stack.
-
-- Hybrid search combining **vector embeddings + keyword matching** for semantically-aware retrieval
-- Document ingestion pipeline with **512-token chunking** and `text-embedding-3-small` embeddings
-- **FastAPI** backend + **Streamlit** frontend with streaming responses for real-time answer generation
+Privacy-preserving embedding and retrieval system for rigorous, source-grounded academic literature reviews[cite: 3].
+*   Indexes approximately 6,000 chunks across 50+ mechanistic interpretability papers[cite: 3].
 
 ---
 
-### 🤖 [End-to-End Azure ML Pipeline](https://github.com/designer-coderajay/azure-ml-pipeline)
-`Azure Machine Learning` `MLflow` `scikit-learn` `Azure ML SDK v2`
+## Technical Expertise
 
-Automated 4-step ML pipeline: data prep → training → evaluation → model registration.
-
-- **74% test accuracy, 80% F1, 87% AUC-ROC** on heart disease prediction (200-record held-out test set)
-- Auto-scaling compute with **minimum zero nodes**. Clusters shut down automatically when idle
-- **MLflow tracking + Azure ML Model Registry** for full experiment reproducibility and version rollback
+*   **Quantitative Methods:** Pre-registered experimental design, multiverse/specification-curve analysis, nonparametric bootstrap, causal intervention methods, variance decomposition[cite: 3].
+*   **Machine Learning Core:** PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, LightGBM, SHAP[cite: 3].
+*   **Agentic Frameworks:** LangGraph, Model Context Protocol (MCP), Qdrant, LlamaIndex, FAISS[cite: 3].
+*   **Systems & MLOps:** MLflow, Optuna, FastAPI, Docker, GitHub Actions, CI/CD pipelines[cite: 3].
 
 ---
 
-## Research
+## Current Status
 
-**Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation**
-
-[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2608.13754)
-
-The EU AI Act requires providers of high-risk systems to file technical documentation describing how the system reaches its decisions. Mechanistic interpretability is the obvious source of such evidence, and circuit discovery is its most developed instrument. We ask whether that evidence survives the condition under which it would be relied upon: two competent analysts, the same system, the same tool, different defensible settings. We pre-registered a crossed grid of seven analytic axes, every level taken from a published implementation, and mapped each discovered circuit through a deterministic claim map to a structured Annex IV statement. Across 15,840 pre-registered specifications on GPT-2 small and the indirect object identification task, of which 7,561 produced a claim, the derived statement flips across 73.2% of specification pairs (95% CI 0.725 to 0.738) and the modal claim commands 41.1% of the space. The evidence fails a filability criterion at every tolerance a conformity assessment body would plausibly accept. Standardising the single most influential choice, the evaluation metric, leaves the flip rate at 59.4%. Removing circuit size from the claim entirely and holding it fixed leaves 27.1% (95% CI 0.255 to 0.286), still above the pre-registered threshold. The circuits underlying these claims are structurally near-disjoint, median pairwise Jaccard overlap 4%, and functionally uncorrelated at Cohen's kappa 0.015, so the instability is not one mechanism described in different words. We give the filability criterion as a standalone protocol, and we report that one of the seven documented discovery objectives does not execute at all on the library's own canonical task. The study covers one model and one task, and whether the conclusion holds at scale is untested.
-
-**Explainable AI for LLMs: Causally Grounded Mechanistic Interpretability for LLMs with Faithful Natural-Language Explanations**
-
-[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2603.09988)
-
-The core finding: traditional attention-based metrics miss **39% of prediction behavior**. Ground truth established via 100% sufficiency scoring using activation patching and causal circuit analysis. The pipeline converts technical circuit data into structured natural language explanations validated against ERASER metrics.
-
-
-
-
----
-
-## Stack
-
-**Languages:** Python, SQL
-
-**ML / Research:** PyTorch, TransformerLens, HuggingFace, scikit-learn, NumPy, Pandas
-
-**Cloud / Infra:** Azure Machine Learning, MLflow, Docker, REST APIs, FastAPI, GitHub Actions, CI/CD
-
-**Core Expertise:** Mechanistic Interpretability · Activation Patching · Transformer Architecture · LLM Evaluation Methodology · Causal Analysis · Python Package Development (PyPI) · Prompt Engineering
-
----
-
-## Certifications
-
-![Azure AI Engineer](https://img.shields.io/badge/Azure_AI_Engineer-AI--102-0078D4?style=flat-square&logo=microsoft-azure)
-![Azure AI Fundamentals](https://img.shields.io/badge/Azure_AI_Fundamentals-AI--900-0078D4?style=flat-square&logo=microsoft-azure)
-![BlueDot](https://img.shields.io/badge/Technical_AI_Safety-BlueDot_Impact-2D9D4E?style=flat-square)
-![Google](https://img.shields.io/badge/AI_Essentials-Google-4285F4?style=flat-square&logo=google)
-![UX Research](https://img.shields.io/badge/UX_Research-Google_Professional-4285F4?style=flat-square&logo=google)
-
----
-
-## Currently
-
-- 📝 **MSc Thesis**. Mechanistic interpretability of LLMs with causally grounded explanations
-- 🏢 **ML Engineer @ One75 Labs**. Production LLM evaluation infrastructure, Berlin
-- 🎯 **Open to**. ML Engineer / AI Researcher roles in the EU (post-graduation, May 2026)
+*   🎓 **Academic:** Master's thesis completed and graded 1.0 (highest on the German scale)[cite: 3].
+*   🎯 **Availability:** Open to PhD positions in Responsible AI / Interpretability, or Applied Scientist / Research Engineer roles in the EU[cite: 1, 3]. Available full-time immediately, no sponsorship required[cite: 3].
 
 ---
 
 <div align="center">
 
-*I don't just run models. I open them up and see what's actually going on inside.*
+*Advancing the transparency, traceability, and alignment of artificial intelligence.*
 
 <br/>
 
