@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=AI%20Researcher%20·%20Mechanistic%20Interpretability%20·%20Responsible%20AI&descAlignY=56&descSize=16"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Ajay%20Mahale&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=36&desc=ML%20Engineer%20·%20LLM%20Evaluation%20·%20Mechanistic%20Interpretability&descAlignY=56&descSize=16"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=600&lines=Causally+grounded+mechanistic+interpretability.;Post-hoc+causal+attribution+over+agent+trajectories.;Advancing+AI+traceability+and+compliance.;arXiv+published+%C2%B7+2026+submissions+%C2%B7+PyPI+maintainer.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=15&duration=3500&pause=1200&color=888888&center=true&vCenter=true&width=600&lines=Building+rigorous+LLM+evaluation+and+agentic+pipelines.;37%C3%97+faster+causal+circuit+discovery+on+PyPI.;Production-grade+RAG+and+MLOps+on+Azure.;arXiv+published+%C2%B7+2026+submissions.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -14,78 +14,83 @@
 
 <br/>
 
-📍 Trier, Germany &nbsp;|&nbsp; 🎓 MSc AI @ Hochschule Trier (June 2026) &nbsp;|&nbsp; 🏢 AI Researcher & MLE
+📍 Trier, Germany &nbsp;|&nbsp; 🎓 M.Sc. AI @ Hochschule Trier (June 2026)[cite: 3] &nbsp;|&nbsp; 🏢 Open to EU Relocation (No Sponsorship Required)[cite: 1]
 
 </div>
 
 ---
 
-## Research Focus
+## Engineering Focus
 
-I am a Machine Learning Researcher focused on mechanistic interpretability, model evaluation, and responsible AI. My primary research investigates a foundational question: when a language model explains itself, is that explanation causally true? Through causal intervention methods like activation patching, my work aims to expose the gap between what evaluation metrics measure and what they claim to measure.
+I build evaluation infrastructure and production-grade architectures for language models and multi-agent systems. My core thesis is empirical: standard metrics and model confidence scores frequently obscure actual internal behavior[cite: 1]. 
 
-Recently, my research has expanded into the rigorous evaluation and causal attribution of multi-agent systems. I develop formal estimators for attribution in agentic decisions, directly addressing the traceability, compliance, and record-keeping requirements specified by frameworks like the EU AI Act.
-
----
-
-## Selected Publications & Preprints
-
-**Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026)
-*   **Contribution:** Established that marginal total effect estimators fail to separate causally inert steps from decisive ones in agent trajectories.
-*   **Methodology:** Separated the marginal total effect from a common-random-numbers total effect that isolates a step’s own contribution.
-*   **Impact:** Derived a 12-requirement traceability specification for high-risk agentic AI systems to bridge regulatory transparency gaps.
-
-**Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026)
-[![arXiv](https://img.shields.io/badge/arXiv-2608.13754-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2608.13754)
-*   **Contribution:** Demonstrated that circuit-level interpretability evidence frequently fails to survive defensible analytic variation.
-*   **Methodology:** Conducted a pre-registered multiverse analysis over 15,840 specifications on GPT-2 small.
-*   **Findings:** The derived regulatory compliance statement flipped across 73.2% of specification pairs.
-
-**Explainable AI for LLMs: A Causally Grounded Pipeline** (Feb 2026)
-[![arXiv](https://img.shields.io/badge/arXiv-2603.09988-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/10.48550/arXiv.2603.09988)
-*   **Contribution:** Proved that model confidence is not a usable proxy for explanation faithfulness.
-*   **Findings:** Measured a near-zero correlation (r = 0.009) between model confidence and internal reasoning faithfulness across 50 prompts. Scored an identified circuit 100% sufficient but only 22% comprehensive.
+By bridging mechanistic interpretability with scalable MLOps and Azure cloud infrastructure, I engineer reproducible evaluation pipelines, high-performance RAG architectures, and agentic workflows (LangGraph, Model Context Protocol) designed for production reliability and regulatory compliance[cite: 1, 3].
 
 ---
 
-## Open-Source Research Infrastructure
+## Core Technical Stack
 
-### 🔎 [Glassbox AI — Mechanistic Interpretability Toolkit](https://github.com/designer-coderajay/Glassbox-AI-2.0-Mechanistic-Interpretability-tool)
-`Python` `PyTorch` `TransformerLens` `arXiv` `PyPI` `Hugging Face`
+*   **Languages:** Python, SQL[cite: 3]
+*   **ML & LLM Ecosystem:** PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, LightGBM, SHAP, Optuna[cite: 3]
+*   **Agentic Frameworks & RAG:** LangGraph, Model Context Protocol (MCP), Qdrant, LlamaIndex, FAISS, Hybrid Search (Vector + BM25)[cite: 1, 3]
+*   **Cloud & MLOps:** Azure Machine Learning (SDK v2), Azure OpenAI Service, Azure AI Search, MLflow, FastAPI, Docker, Docker Compose, GitHub Actions, CI/CD[cite: 1, 3]
 
-Published an open-source mechanistic interpretability toolkit to PyPI (`glassbox-mech-interp`), implementing 21 mathematical frameworks.
-*   Accelerated causal circuit discovery 15 to 37 times against ACDC baselines on GPT-2 Small.
-*   Extended exact edge-level discovery to grouped-query-attention and RMSNorm architectures (Llama-3, Mistral, Phi-3, Gemma) via dedicated adapters.
-*   Automated generation of structured JSON for compliance documentation (EU AI Act Annex IV).
+---
+
+## Featured Engineering Projects
+
+### 🔎 [Glassbox AI — Mechanistic Interpretability Tool](https://github.com/designer-coderajay/Glassbox-AI-2.0-Mechanistic-Interpretability-tool)
+`Python` `PyTorch` `TransformerLens` `PyPI` `Docker` `FastAPI`[cite: 1]
+*   Created and maintain `glassbox-mech-interp` (v4.5.0 on PyPI), an open-source toolkit implementing 21 mathematical frameworks for causal circuit discovery via activation patching[cite: 1, 3].
+*   Benchmarked **15 to 37 times faster than ACDC** on GPT-2 Small (1.2s on CPU)[cite: 1, 3].
+*   Extended architecture adapters to support Grouped-Query Attention (GQA) and RMSNorm models (Llama-3, Mistral, Phi-3, Gemma)[cite: 3].
+*   Automated compliance reporting, emitting structured JSON for EU AI Act Annex IV documentation[cite: 1].
 
 ### 🧠 [Enterprise Agentic AI Platform](https://github.com/designer-coderajay/enterprise-agentic-ai-platform)
-`LangGraph` `Model Context Protocol (MCP)` `Qdrant` `LlamaIndex`
+`LangGraph (0.3)` `Model Context Protocol (MCP)` `Qdrant` `LlamaIndex` `FastAPI` `Celery`[cite: 3]
+*   Orchestrated a multi-agent system utilizing LangGraph to coordinate 3 Model Context Protocol (MCP) servers (Postgres, document, notification)[cite: 3].
+*   Engineered hybrid RAG pipelines over Qdrant using LlamaIndex with a FastAPI backend streaming over WebSockets to a Next.js UI[cite: 3].
+*   Integrated enterprise observability using Langfuse, OpenTelemetry, Prometheus, Grafana, and Sentry under a robust `pytest-asyncio` CI/CD pipeline[cite: 3].
 
-Multi-agent orchestration system developed to evaluate complex automated reasoning and underwriting architectures.
-*   Orchestrates multiple MCP servers (Postgres, document, notification, credit workflows) via LangGraph.
-*   Integrates hybrid RAG (vector + BM25) over Qdrant using LlamaIndex with comprehensive observability via OpenTelemetry and Langfuse.
+### ☁️ [Azure Cloud AI RAG System](https://github.com/designer-coderajay/azure-ai-rag-system)
+`Azure OpenAI` `Azure AI Search` `FastAPI` `Streamlit` `GPT-4o-mini`[cite: 1]
+*   Developed a document Q&A platform combining vector embeddings and keyword matching (BM25) for high-accuracy hybrid retrieval[cite: 1].
+*   Implemented custom chunking and ingestion pipelines over Azure Blob Storage using `text-embedding-3-small`[cite: 1].
+
+### 🤖 [End-to-End Azure ML Pipeline](https://github.com/designer-coderajay/azure-ml-pipeline)
+`Azure ML SDK v2` `MLflow` `scikit-learn` `Docker`[cite: 1]
+*   Designed an automated 4-stage pipeline (data preparation, training, evaluation, model registration) running on auto-scaling compute clusters that scale to zero idle nodes[cite: 1].
+*   Integrated MLflow tracking and the Azure ML Model Registry for complete experiment reproducibility and version control[cite: 1].
 
 ---
 
-## Technical Expertise
+## Selected Research & Publications
 
-*   **Quantitative Methods:** Pre-registered experimental design, multiverse/specification-curve analysis, nonparametric bootstrap, causal intervention methods, variance decomposition.
-*   **Machine Learning Core:** PyTorch, TransformerLens, Hugging Face, scikit-learn, XGBoost, LightGBM, SHAP.
-*   **Agentic Frameworks:** LangGraph, Model Context Protocol (MCP), Qdrant, LlamaIndex, FAISS.
-*   **Systems & MLOps:** MLflow, Optuna, FastAPI, Docker, GitHub Actions, CI/CD pipelines, Azure ML.
+*   **Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026) – Preprint evaluating total and direct effect estimators for agent trajectories and establishing a 12-point traceability specification for high-risk AI[cite: 2, 3].
+*   **Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026) – arXiv:2608.13754[cite: 1, 3]. Proved that compliance-related circuit claims flip across 73.2% of specification pairs in a pre-registered multiverse analysis[cite: 1].
+*   **Explainable AI for LLMs: A Causally Grounded Pipeline** (Feb 2026) – arXiv:2603.09988[cite: 1, 3]. Established a near-zero correlation ($r = 0.009$) between model confidence and explanation faithfulness, proving confidence cannot serve as an evaluation proxy[cite: 1].
 
 ---
 
-## Current Status
+## Certifications
 
-*   🎓 **Academic:** M.Sc. in Interdisciplinary Engineering (AI/ML) completed at Hochschule Trier (Thesis graded 1.0, Overall 1.8).
-*   🎯 **Availability:** Open to PhD positions in Responsible AI / Interpretability, or Applied Scientist / Research Engineer roles in the EU (Available immediately, no sponsorship required).
+![Azure AI Engineer](https://img.shields.io/badge/Azure_AI_Engineer-AI--102-0078D4?style=flat-square&logo=microsoft-azure)
+![Azure AI Fundamentals](https://img.shields.io/badge/Azure_AI_Fundamentals-AI--900-0078D4?style=flat-square&logo=microsoft-azure)
+![BlueDot Impact](https://img.shields.io/badge/Technical_AI_Safety-BlueDot_Impact-2D9D4E?style=flat-square)
+![Claude Code](https://img.shields.io/badge/Claude_Code-In_Action-8A2BE2?style=flat-square)
+
+---
+
+## Availability
+
+*   🎓 **Education:** M.Sc. in Interdisciplinary Engineering (AI/ML) from Hochschule Trier (Thesis graded 1.0, Overall 1.8)[cite: 3].
+*   🎯 **Status:** Available full-time immediately for **Machine Learning Engineer**, **AI Engineer**, or **LLM Evaluation Engineer** positions across the EU (German residence permit, no sponsorship required)[cite: 1, 3].
 
 ---
 
 <div align="center">
 
-*Advancing the transparency, traceability, and alignment of artificial intelligence.*
+*Building robust systems that open up models and make evaluation verifiable.*
 
 <br/>
 
