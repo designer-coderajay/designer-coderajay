@@ -66,7 +66,7 @@ By bridging mechanistic interpretability with scalable MLOps and Azure cloud inf
 
 ## Selected Research & Publications
 
-*   **Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026) – [https://doi.org/10.48550/arXiv.2609.06445](https://doi.org/10.48550/arXiv.2608.13754) Preprint evaluating total and direct effect estimators for agent trajectories and establishing a 12-point traceability specification for high-risk AI.
+*   **Causal Attribution for Agentic Decisions: Estimators, Coupling, and a Traceability Specification** (Sep 2026)https://doi.org/10.48550/arXiv.2609.06445 Preprint evaluating total and direct effect estimators for agent trajectories and establishing a 12-point traceability specification for high-risk AI.
 *   **Explanation Multiplicity: Circuit-Level Interpretability Evidence Does Not Survive Defensible Analytic Variation** (Aug 2026) – [arXiv:2608.13754](https://doi.org/10.48550/arXiv.2608.13754). Proved that compliance-related circuit claims flip across 73.2% of specification pairs in a pre-registered multiverse analysis.
 *   **Explainable AI for LLMs: A Causally Grounded Pipeline** (Feb 2026) – [arXiv:2603.09988](https://doi.org/10.48550/arXiv.2603.09988). Established a near-zero correlation ($r = 0.009$) between model confidence and explanation faithfulness, proving confidence cannot serve as an evaluation proxy.
 
